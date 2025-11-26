@@ -5,7 +5,10 @@ __pycache__/
 *.ipynb_checkpoints
 
 # Ignore dataset files
-train_beneficiarydata.csv
-train_inpatientdata.csv
-train_outpatientdata.csv
-train_labels.csv
+Train_Beneficiarydata-1542865627584.csv
+Train_Inpatientdata-1542865627584.csv
+Train_Outpatientdata-1542865627584.csv
+Train-1542865627584.csv
+
+# Ignore all files in the data/raw/ folder
+data/raw/
