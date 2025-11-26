@@ -3,3 +3,9 @@ __pycache__/
 *.pyc
 .vscode/
 *.ipynb_checkpoints
+
+# Ignore dataset files
+train_beneficiarydata.csv
+train_inpatientdata.csv
+train_outpatientdata.csv
+train_labels.csv
