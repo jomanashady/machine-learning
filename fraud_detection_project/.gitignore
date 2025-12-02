@@ -3,3 +3,12 @@ __pycache__/
 *.pyc
 .vscode/
 *.ipynb_checkpoints
+
+# Ignore dataset files
+Train_Beneficiarydata-1542865627584.csv
+Train_Inpatientdata-1542865627584.csv
+Train_Outpatientdata-1542865627584.csv
+Train-1542865627584.csv
+
+# Ignore all files in the data/raw/ folder
+data/raw/
