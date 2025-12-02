@@ -1,0 +1,39 @@
+{
+    "test_metrics": {
+        "Accuracy": 0.9417744916820703,
+        "Precision": 0.6727272727272727,
+        "Recall": 0.7326732673267327,
+        "F1-Score": 0.7014218009478673,
+        "ROC-AUC": 0.9684904270243537,
+        "PR-AUC": 0.782975274116288
+    },
+    "confusion_matrix": {
+        "true_negatives": 945,
+        "false_positives": 1,
+        "false_negatives": 76,
+        "true_positives": 25
+    },
+    "business_impact": {
+        "total_providers": 1082,
+        "fraudulent_providers": 101,
+        "detected_fraud": 74,
+        "false_positives_count": 36,
+        "detection_rate": 0.7326732673267327,
+        "false_positive_rate": 0.03669724770642202,
+        "investigation_efficiency": 0.6727272727272727,
+        "total_investigation_cost": 550000.0,
+        "total_fraud_cost_saved": 7400000.0,
+        "cost_of_missed_fraud": 2700000.0,
+        "net_savings": 4150000.0
+    },
+    "error_analysis": {
+        "false_positives_count": 36,
+        "false_negatives_count": 27,
+        "accuracy": 0.9417744916820703
+    },
+    "threshold_analysis": {
+        "optimal_threshold_cost": 0.1,
+        "current_threshold": 0.5,
+        "threshold_recommendation": "Consider lowering threshold to 0.3 for higher recall"
+    }
+}
